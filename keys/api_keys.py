@@ -1,5 +1,3 @@
 # OpenWeatherMap API Key
-weather_api_key = "YOUR KEY HERE!"
-
-# Google API Key
-g_key = "YOUR KEY HERE!"
+g_key =os.environ.get("GKEY")
+weather_api_key =os.environ.get("Weather_Key")
